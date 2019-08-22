@@ -1,8 +1,8 @@
+import Items from '../components/Items';
 
 const Home = props => (
     <div>
-        <p>Aloha, Abby!</p>
-        
+        <Items/>
     </div>
 )
 

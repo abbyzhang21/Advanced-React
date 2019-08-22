@@ -6,13 +6,13 @@ import NProgress from 'nprogress';
 
 
 Router.onRouteChangeStart = () => {
-    console.log('onRouterChangeStart')
+    NProgress.start()
 }
 Router.onRouteChangeCompelte = () => {
-    console.log('onRouterChangeComplete')
+    NProgress.done();
 }
 Router.onRouteChangeError = () => {
-    console.log('onRouterChangeError')
+    NProgress.done();
 }
 
 const Logo = styled.h1`
